@@ -1,0 +1,135 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css");
+
+
+*{
+  box-sizing: border-box;
+}
+
+
+.product-page {
+  width: 90%;
+  margin-top: 60px;
+  display: flex;
+  flex-flow:row wrap;
+  /* text-overflow:initial; */
+  flex-direction:row-reverse;
+  justify-content:space-evenly;
+}
+
+.product-cartdetails{
+
+    width: 18%;
+    border: 0.3px solid rgba(234, 97, 5, 0.626);
+    padding: 25px;
+    margin: 7px;
+    border-radius: 3px;
+
+}
+
+.pro-image{
+  width: 60%;
+  margin: 7px;
+}
+.pro-image:hover{
+  cursor:zoom-in;
+  transition: 1.8s;
+  transform: scale(1.5);
+}
+
+.image-container{
+  text-align: center;
+  border-bottom: 8.3px solid rgba(221, 130, 18, 0.814);
+} 
+
+
+.product-details{
+  width: 100%;
+  /* display: flex; */
+  margin-top:40px; 
+}
+.product-details p span{
+  color:brown;
+  font-weight: bold;
+}
+ 
+ .product-title{
+  /* font-family:cursive; */
+  white-space:nowrap; 
+  overflow:hidden;
+  /* text-overflow:ellipsis; */
+} 
+
+.price-tag span{
+  /* font-size: 11px; */
+  color:darkslategrey;
+} 
+
+.starDetails {
+  display: flex;
+  align-items: center;
+  font-size: small;
+  /* margin-top: 20px; */
+}
+.star-rating {
+  display: flex;
+  align-items: center;
+  font-size: 10px;
+  height: 25px;
+}
+.empty-stars {
+  display: flex;
+  color: rgba(132, 130, 130, 0.925);
+  position: relative;
+}
+.ratestar {
+  display: flex;
+  color: rgba(255, 255, 0, 0.799);
+  overflow: hidden;
+  position: absolute;
+}
+
+.Added-class{
+  background-color: rgba(249, 4, 4, 0.723) !important;
+  color: #f9f9fa !important;
+} 
+
+.addtocart{
+  margin-top: 25px;
+  border-radius:3px;
+  border: none;
+  box-shadow: rgba(83, 249, 141, 0.905) 8px 8px 8px;
+  background:#588beafb;
+  cursor:pointer;
+  height:28px;
+  color: white;
+  font:bolder;
+  width:100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+.addtocart svg{
+  vertical-align: inherit;
+} */
+
+/* .empty-fav{
+  box-shadow: rgb(0 0 0 / 35%) 0px 0px 2px;
+  height: 400px;
+  width: 950px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.empty-fav img{
+  width: 300px;
+} */
